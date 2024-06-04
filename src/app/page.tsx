@@ -5,7 +5,7 @@ import CoolMerlin from './CoolMerlin.png'
 const poppins = Playfair({ subsets: ['latin'] })
 export default function Home() {
   return (
-    <>
+
     <main className={poppins.className}>
        <section className="relative flex items-center justify-center h-screen w-full">
      <div className="absolute inset-0 z-0">
@@ -31,6 +31,6 @@ export default function Home() {
         </section>    
     </main>
 
-    </>
+ 
   );
 }
